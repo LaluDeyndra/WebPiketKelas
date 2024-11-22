@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Box</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .card {
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        overflow: hidden;
+        text-align: center;
+      }
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+      .card-body {
+        padding: 15px;
+      }
+      .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      .card-text {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 15px;
+      }
+      .card-btn {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .card-btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">This is a simple card with some text content. It’s easy to customize.</p>
+        <a href="#" class="card-btn">Learn More</a>
+      </div>
+    </div>
+  </body>
+</html>
