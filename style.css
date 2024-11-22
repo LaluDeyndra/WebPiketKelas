@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: font;
-  src: url(/Host_Grotesk/HostGrotesk-VariableFont_wght.ttf);
+  src: url(./Host_Grotesk/HostGrotesk-VariableFont_wght.ttf);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Memusatkan secara vertikal */
-  background: url(/img/5629296.jpg);
+  background: url(./img/5629296.jpg);
   align-items: center;
   padding-top: 150px;
 }
